@@ -15,7 +15,7 @@ Each simulation or real-world example is located in a separate folder, containin
 
 ##  Running the Scripts
 
-### 🔬 Simulation Studies
+### Simulation Studies
 
 To reproduce results from the simulation section of the manuscript (e.g., *Fit SEM under MAR with n = 5,041 and 90% missing data*):
 
