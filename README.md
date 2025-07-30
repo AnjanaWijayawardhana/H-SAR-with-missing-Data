@@ -4,7 +4,7 @@ This repository contains R code for the simulation studies and real-world exampl
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 Each simulation or real-world example is located in a separate folder, containing the following key files:
 
@@ -13,7 +13,7 @@ Each simulation or real-world example is located in a separate folder, containin
 
 ---
 
-## ▶️ Running the Scripts
+## Running the Scripts
 
 To reproduce results from the manuscript (e.g., *Simulation: SEM under MAR with n = 5,041 and 90% missing data*):
 
@@ -23,18 +23,18 @@ To reproduce results from the manuscript (e.g., *Simulation: SEM under MAR with 
 4. **Specify** the model type, sample size (`n`), number of simulations (`N`), and the missing data percentage.
 5. **Run** the script to execute the simulation.
 
-> 🔁 For other simulations, simply repeat the steps above using the appropriate folder and parameters.
+>  For other simulations, simply repeat the steps above using the appropriate folder and parameters.
 
 ---
 
-## 💻 Environment Requirements
+## Environment Requirements
 
-### ✅ R Version
+###  R Version
 
 - Tested on **R 4.4.2**  
 - Also compatible with **R 4.4.2** (and likely later versions)
 
-### 📦 Required Packages
+### Required Packages
 
 Install the necessary packages by running:
 
