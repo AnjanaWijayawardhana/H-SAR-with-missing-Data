@@ -1,56 +1,42 @@
-# H-SAR-with-missing-Data
+# H-SAR-with-Missing-Data
 
+This repository contains R code for the simulation studies and real-world examples presented in the manuscript.
 
-This repository contains R codes for the simulation studies and the real-world examples presented in the manuscript:
+---
 
+## 📁 Folder Structure
 
-## Folder Structure
+Each simulation or real-world example is located in a separate folder, containing the following key files:
 
-Each example (simulations and real example) is stored in a separate folder, which contains the following sub-files:
+- **`Source.R`** – Contains the core R code for running the algorithms.  
+- **`Implement.R`** – Implements and runs all algorithms for the selected scenario.
 
-- **Source.R**: Contains the R code to run the algorithms.
-- **implement.R**: Contains the R code to implement all algorithms.
+---
 
+## ▶️ Running the Scripts
 
-## Running the Scripts
+To reproduce results from the manuscript (e.g., *Simulation: SEM under MAR with n = 5,041 and 90% missing data*):
 
-To reproduce results in the manuscript, for example, the **Simulation: SEM nder MAR with n=5, 041, with **90%** missing data**:
+1. **Download** the relevant folder (e.g., `Simulations`).
+2. **Set the working directory** to that folder in R or RStudio.
+3. **Open** the `Implement.R` script.
+4. **Specify** the model type, sample size (`n`), number of simulations (`N`), and the missing data percentage.
+5. **Run** the script to execute the simulation.
 
-1. **Download the `Sim_MAR` folder.**
-2. **Set the working directory** to this folder.
-3. **Run** the `implement.R` script.
+> 🔁 For other simulations, simply repeat the steps above using the appropriate folder and parameters.
 
-Similarly, for other examples, set the working directory to the respective folder before running the corresponding `implement.R` script.
+---
 
-<!--### **Reproducing Pre-Saved Results**
+## 💻 Environment Requirements
 
-To generate plots and output using pre-saved data:
+### ✅ R Version
 
-- Set `rerun_vb` and `rerun_hmc` in the `*_main.R` script to `FALSE`. The script will load results automatically.
-- To re-run the VB and HMC algorithms from scratch, set `rerun_vb` and `rerun_hmc` to `TRUE`.
+- Tested on **R 4.4.2**  
+- Also compatible with **R 4.4.2** (and likely later versions)
 
-### **Supplementary Sections**
+### 📦 Required Packages
 
-- **Section S3 (Variance Testing)**: Run `var_test_*.R` files in `Logistic/var_test` and `Polypharmacy/var_test` folders.
-- **Section S4 (Repeated Simulations)**: Run `*_multi_sims.R` files in `1_Linear/multi_sims/`, `2_Logistic/multi_sims/`, and `5_Poisson/multi_sims/` folders.
-
-The flag `use_tempering` (default: `TRUE`) enables the damped version of VB, as used in the paper.-->
-
-## RStudio and Package Requirements
-
-### **R Version Compatibility**
-
-- The code was tested on **R version 4.1** and **RStan version 2.21**.
-- It is also compatible with **R version 4.3** and **RStan version 2.26**.
-- Ensure your R installation is configured to compile C++ before installing RStan.
-
-### **Required R Packages**
-
-Install dependencies using:
+Install the necessary packages by running:
 
 ```r
-install.packages(c( "rstan","Matrix","coda","mvnfast","patchwork","vctrs","tidyr","igraph", "ggplot2", "MASS", "spdep","tictoc" ,"mvtnorm", "dplyr","reshape2","spatialreg"))
-```
-
-
-For detailed installation instructions and system requirements, refer to the respective package documentation.
+install.packages(c("MASS", "mvtnorm", "truncnorm", "BayesLogit", "Matrix", "tidyverse", "ggplot2", "patchwork"))
