@@ -13,7 +13,7 @@ Each simulation or real-world example is located in a separate folder, containin
 
 ---
 
-## ▶️ Running the Scripts
+##  Running the Scripts
 
 ### 🔬 Simulation Studies
 
@@ -29,11 +29,11 @@ To reproduce results from the simulation section of the manuscript (e.g., *Fit S
    - the percentage of missing data  
 5. **Run** the script to perform the simulation.
 
-> 🔁 To reproduce other simulation results, repeat the steps using the appropriate folder and settings.
+> To reproduce other simulation results, repeat the steps using the appropriate folder and settings.
 
 ---
 
-### 🏠 Real-World Example
+###  Real-World Example
 
 To reproduce results from the real-world application (e.g., *Fit SEM to the Lucas County house price data under MAR with 90% missing data*):
 
@@ -58,4 +58,5 @@ To reproduce results from the real-world application (e.g., *Fit SEM to the Luca
 Install the necessary packages by running:
 
 ```r
-install.packages(c("MASS", "mvtnorm", "truncnorm", "BayesLogit", "Matrix", "tidyverse", "ggplot2", "patchwork"))
+install.packages(c("numDeriv", "Matrix", "spatialreg", "spData", "spdep", "tictoc", "igraph"))
+
