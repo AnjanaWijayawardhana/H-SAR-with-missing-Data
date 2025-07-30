@@ -6,7 +6,8 @@ This repository contains R code for the simulation studies and real-world exampl
 
 ##  Folder Structure
 
-Each simulation or real-world example is located in a separate folder, containing the following key files:
+Simulation studies and the real-world example are organized into separate folders. Each contains:
+
 
 - **`Source.R`** – Contains the core R code for running the algorithms.  
 - **`Implement.R`** – Implements and runs all algorithms for the selected scenario.
