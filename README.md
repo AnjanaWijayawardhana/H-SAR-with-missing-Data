@@ -18,7 +18,7 @@ Simulation studies and the real-world example are organized into separate folder
 
 ### Simulation Studies
 
-To reproduce results from the simulation section of the manuscript (e.g., *Fit SEM under MAR with n = 5,041 and 90% missing data for n=250 datasets*):
+To reproduce results from the simulation section of the manuscript (e.g., *Fit SEM under MAR with n = 5,041 and 90% missing data for N=250 datasets*):
 
 1. **Download** the `Simulations` folder.
 2. **Set the working directory** to this folder in R or RStudio.
