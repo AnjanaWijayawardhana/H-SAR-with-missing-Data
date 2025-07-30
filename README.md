@@ -1,7 +1,7 @@
 # H-SAR-with-missing-Data
 
 
-This folder contains R codes for the simulation studies and the real-world examples presented in the manuscript:
+This repository contains R codes for the simulation studies and the real-world examples presented in the manuscript:
 
 - **Simulation1: SEM under MAR n=625, with **75%** missing data (Sim_MAR)**
 - **Simulation2: SEM under MNAR n=625, with **75%** missing data (Sim_MNAR)**
