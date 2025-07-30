@@ -13,24 +13,36 @@ Each simulation or real-world example is located in a separate folder, containin
 
 ---
 
-## Running the Scripts
+## ▶️ Running the Scripts
 
-To reproduce results from the simulation section of the manuscript (e.g., *Simulation: Fit SEM under MAR with n = 5,041 and 90% missing data*):
+### 🔬 Simulation Studies
 
-1. **Download** the relevant folder `Simulations`.
-2. **Set the working directory** to that folder in R or RStudio.
+To reproduce results from the simulation section of the manuscript (e.g., *Fit SEM under MAR with n = 5,041 and 90% missing data*):
+
+1. **Download** the `Simulations` folder.
+2. **Set the working directory** to this folder in R or RStudio.
 3. **Open** the `Implement.R` script.
-4. **Specify** the model type, number of observations (`n`), number of simulations (`N`), and the missing data percentage.
-5. **Run** the script to execute the simulation.
+4. **Specify**:
+   - the model type  
+   - the number of observations (`n`)  
+   - the number of simulations (`N`)  
+   - the percentage of missing data  
+5. **Run** the script to perform the simulation.
 
->  For other simulations, simply repeat the steps above using the appropriate folder and parameters.
+> 🔁 To reproduce other simulation results, repeat the steps using the appropriate folder and settings.
 
-To reproduce results from the Real-world example section of the manuscript (e.g., *Fit SEM for Lucas County house price under MAR with 90% missing data*):
-1. **Download** the relevant folder `Simulations`.
-2. **Set the working directory** to that folder in R or RStudio.
+---
+
+### 🏠 Real-World Example
+
+To reproduce results from the real-world application (e.g., *Fit SEM to the Lucas County house price data under MAR with 90% missing data*):
+
+1. **Download** the `Real application` folder.
+2. **Set the working directory** to this folder in R or RStudio.
 3. **Open** the `Implement.R` script.
-4. **Specify** the model type, number of observations (`n`), number of simulations (`N`), and the missing data percentage.
-5. **Run** the script to execute the simulation.
+4. **Specify** the model type and the missing data percentage.
+5. **Run** the script to perform the analysis.
+
 
 ---
 
