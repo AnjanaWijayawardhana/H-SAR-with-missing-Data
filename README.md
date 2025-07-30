@@ -31,7 +31,6 @@ To reproduce results from the simulation section of the manuscript (e.g., *Fit S
 
 > To reproduce other simulation results, repeat the steps using the appropriate folder and settings.
 
----
 
 ###  Real-World Example
 
