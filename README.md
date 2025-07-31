@@ -50,8 +50,8 @@ To reproduce results from the real-world application (e.g., *Fit SEM to the Luca
 
 ###  R Version
 
-- Tested on **R 4.4.2**  
-- Also compatible with **xxxxx**
+- Tested on **R 4.3.1**  
+- Also compatible with **R 4.4.2**
 
 ### Required Packages
 
