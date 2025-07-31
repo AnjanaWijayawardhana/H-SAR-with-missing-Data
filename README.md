@@ -37,7 +37,7 @@ To reproduce results from the simulation section of the manuscript (e.g., *Fit S
 
 To reproduce results from the real-world application (e.g., *Fit SEM to the Lucas County house price data under MAR with 90% missing data*):
 
-1. **Download** the `Real application` folder.
+1. **Download** the `Real applications` folder.
 2. **Set the working directory** to this folder in R or RStudio.
 3. **Open** the `Implement.R` script.
 4. **Specify** the model type and the missing data percentage.
