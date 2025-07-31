@@ -1183,7 +1183,7 @@ splitter<-function(x,y,w,wmat,p_sample){
   l=list("W"=w,"Y"=y,"X"=x,"ns"=ns,"w_oo"=reordered_wmat_oo,"y_o"=ys,"x_o"=xs)
   return(l)
   
-} #Make missing data, and partitions of y,W,X, accordingly.
+} #Make missing data (under MAR), and partitions of y,W,X, accordingly.
 
 
 #################### Function to summarize results #####################
