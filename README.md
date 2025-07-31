@@ -1,4 +1,4 @@
-# H-SAR-with-Missing-Data
+# A Marginal Maximum Likelihood Approach for Hierarchical Simultaneous Autoregressive Models with Missing Data
 
 This repository contains R code for the simulation studies and real-world examples presented in the manuscript.
 
