@@ -338,7 +338,7 @@ ME.full<-function(x,y,w,model,Hessian,
   
   
 } # MLE of Suesse (2018): MLE for SAR with measurement error. 
-                                        #This algorithm is used to estimate OML using CCA.
+                                        #This algorithm is used to OML using CCA.
 
 
 ME_DB1<-function(x,y,w,ns,model,voo.method,
