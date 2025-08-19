@@ -46,7 +46,7 @@ To reproduce results from the real-world application (e.g., *Fit SEM to the Luca
 
 ---
 
-## Environment Requirements
+## RStudio and Package Requirements
 
 ###  R Version
 
