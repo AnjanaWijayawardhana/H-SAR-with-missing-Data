@@ -30,7 +30,7 @@ To reproduce results from the simulation section of the manuscript (e.g., *Fit S
    - the percentage of missing data  
 5. **Run** the script to perform the simulation.
 
-> To reproduce other simulation results, repeat the steps using the appropriate settings.
+To reproduce other simulation results, repeat the steps using the appropriate settings.
 
 
 ###  Real-World Example
