@@ -160,7 +160,7 @@ toc()
 
 ###############################
 
-#Mean estimates, and MSE ocross simulated datasets
+#Mean estimates, and MSE across simulated datasets
 
 (Reduce(`+`, OML.estimates.list)/N )[,1:3] #OML
 (Reduce(`+`, MMLD.estimates.list)/N)[,1:3] #MMLD
@@ -210,5 +210,6 @@ final.valid.indeces<- vec.NA.or.valid.OLM & vec.NA.or.valid.marginalD & vec.NA.o
 
 apply(Times, 2, mean)
 boxplot(Times)
+
 
 
