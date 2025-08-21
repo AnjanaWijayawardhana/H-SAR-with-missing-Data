@@ -15,10 +15,10 @@ N <- 5              # Number of simulated datasets to generate
 
 # True parameter values (set below) should reflect the underlying data-generating process
 
-beta<-c(1,5)
-rho<-0.8
-sigma2eps<-2 
-sigma2e<-1 
+beta<-c(1,5) #True values of Betas
+rho<-0.8 # True value of rho
+sigma2eps<-2 #True value of measurement error variance
+sigma2e<-1 #True value of error variance
 truepara<-c(beta,rho,sigma2eps,sigma2e)
 
 
@@ -210,6 +210,7 @@ final.valid.indeces<- vec.NA.or.valid.OLM & vec.NA.or.valid.marginalD & vec.NA.o
 
 apply(Times, 2, mean)
 boxplot(Times)
+
 
 
 
